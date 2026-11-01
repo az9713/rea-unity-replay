@@ -1,18 +1,16 @@
 # Guarded Replay Ledger
 
-An experimental **Unity UPM Editor package** and a **verified standalone C# policy
-core** for bounded scene commands. Record local transform/name/active changes,
-preview their result, restore a guarded checkpoint and replay only when object,
-asset/importer and environment identities still match.
+Repeating an edit is safer when you first check that it is still aimed at the right object in the right starting state. This tool previews a small set of scene edits and refuses to repeat them when the recorded conditions no longer match.
 
-**Unity Editor execution is unverified.** The core has 20 passing real .NET tests;
-the Editor code compiles against explicitly labeled handwritten API shims, not
-genuine Unity assemblies. No installed Unity, private project or license folder
-was inspected, and no Unity installation/activation was attempted.
+Suppose an editor script moves an object called Target. Later, another scene contains an object with the same name but a different identity or starting position. Repeating the old instruction without checking can change the wrong thing.
 
-[Interactive explanation](https://az9713.github.io/rea-unity-replay/) ·
-[Runnable releases](https://github.com/az9713/rea-unity-replay/releases/tag/v0.1.0) ·
-[Source investigation](investigation/COMPARISON.md)
+**Example:** The browser example changes selected object positions and on/off state. It checks the saved starting scene before allowing the repeated edits. Change that starting state and the example refuses the old edit, showing why a familiar object name is not enough.
+
+**What you install:** An experimental Unity editor package, plus a tested separate Windows checker.
+
+**Current scope:** The separate C# checker and Windows example were executed. Installation in a real Unity Editor, the editor panel and native Undo behavior remain unverified. Complex scenes, physics, animation and arbitrary scripts are outside this release.
+
+[Live guide](https://az9713.github.io/rea-unity-replay/) · [Download packages](https://github.com/az9713/rea-unity-replay/releases/tag/v0.1.0)
 
 ## The before/after change
 
