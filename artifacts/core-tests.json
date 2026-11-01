@@ -1,0 +1,107 @@
+{
+  "host": "Real .NET C# policy/core execution, not Unity Editor",
+  "passed": 20,
+  "total": 20,
+  "results": [
+    {
+      "name": "bounded replay produces declared result without mutating baseline",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "wrong baseline and scene root are refused",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "duplicate object IDs are ambiguous",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "hierarchy escape and cycle are refused",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "unknown components and nondeterministic callbacks are refused",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "stale command precondition is refused",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "unknown reflection command is refused",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "nonfinite vectors are refused",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "nonpositive scale and nonunit rotation are refused",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "intermediate invariant violation cannot hide behind final state",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "command and object resource caps are enforced",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "asset content importer and environment conflicts are refused",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "asset paths cannot escape fixture project",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "JSON roundtrip and decimal culture preserve identity",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "IEEE float hashing normalizes signed zero",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "malformed Unicode cannot collapse into replacement-byte identity",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "backend failure restores checkpoint without commit",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "post-apply divergence is detected and rolled back",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "failed rollback is explicit rather than reported as safe",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "name": "actual fixture file hash rejects tampering",
+      "passed": true,
+      "error": ""
+    }
+  ]
+}

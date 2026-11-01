@@ -1,0 +1,7 @@
+{
+  "scope": "Exact three release archives; recursive ZIP/tgz entries and PE ASCII/UTF16LE known build-path marker scan",
+  "files_and_nested_entries": 218,
+  "PE_entries": 186,
+  "marker_hits": [],
+  "passed": true
+}

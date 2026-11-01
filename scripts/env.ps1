@@ -1,0 +1,19 @@
+$ProjectRoot = Split-Path -Parent $PSScriptRoot
+$env:DOTNET_GENERATE_ASPNET_CERTIFICATE = 'false'
+$env:DOTNET_SKIP_FIRST_TIME_EXPERIENCE = '1'
+$env:DOTNET_CLI_TELEMETRY_OPTOUT = '1'
+$env:DOTNET_MULTILEVEL_LOOKUP = '0'
+$env:DOTNET_CLI_HOME = Join-Path $ProjectRoot '.runtime/dotnet-home'
+$env:NUGET_PACKAGES = Join-Path $ProjectRoot '.runtime/nuget'
+$env:NUGET_HTTP_CACHE_PATH = Join-Path $ProjectRoot '.runtime/nuget-http'
+$env:NUGET_PLUGINS_CACHE_PATH = Join-Path $ProjectRoot '.runtime/nuget-plugins'
+$env:NUGET_SCRATCH = Join-Path $ProjectRoot '.runtime/nuget-scratch'
+$env:TEMP = Join-Path $ProjectRoot '.runtime/tmp'
+$env:TMP = $env:TEMP
+$env:TMPDIR = $env:TEMP
+$env:PYTHONDONTWRITEBYTECODE = '1'
+$env:PYTHONPYCACHEPREFIX = Join-Path $ProjectRoot '.runtime/pycache'
+New-Item -ItemType Directory -Force -Path $env:DOTNET_CLI_HOME,$env:NUGET_PACKAGES,$env:NUGET_HTTP_CACHE_PATH,$env:NUGET_PLUGINS_CACHE_PATH,$env:NUGET_SCRATCH,$env:TEMP | Out-Null
+$SharedSdk = Join-Path (Split-Path -Parent $ProjectRoot) 'sharex-receipts/.tools/dotnet/dotnet.exe'
+$Dotnet = if (Test-Path -LiteralPath $SharedSdk) { $SharedSdk } else { (Get-Command dotnet -ErrorAction Stop).Source }
+$env:DOTNET_ROOT = Split-Path -Parent $Dotnet

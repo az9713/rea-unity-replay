@@ -1,0 +1,52 @@
+{
+  "rootIdentity": "synthetic-root-id",
+  "sceneGuid": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "objects": [
+    {
+      "id": "synthetic-root-id",
+      "parentId": "",
+      "name": "ScientificRoot",
+      "active": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "unsupportedComponents": []
+    },
+    {
+      "id": "synthetic-marker-id",
+      "parentId": "synthetic-root-id",
+      "name": "Marker",
+      "active": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "unsupportedComponents": []
+    }
+  ]
+}

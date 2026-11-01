@@ -1,0 +1,7 @@
+.runtime/
+bin/
+obj/
+artifacts/*.zip
+artifacts/*.sha256
+investigation/audit-baseline.private.json
+handoff.json

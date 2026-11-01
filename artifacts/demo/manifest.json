@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "baseline": {
+    "rootIdentity": "synthetic-root-id",
+    "sceneGuid": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "objects": [
+      {
+        "id": "synthetic-root-id",
+        "parentId": "",
+        "name": "ScientificRoot",
+        "active": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "unsupportedComponents": []
+      },
+      {
+        "id": "synthetic-marker-id",
+        "parentId": "synthetic-root-id",
+        "name": "Marker",
+        "active": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "unsupportedComponents": []
+      }
+    ]
+  },
+  "baselineHash": "8c143b81c9a8997bcab8b8f15d053271f3791a267f408e5abb3520bb1f3bd5a1",
+  "context": {
+    "unityVersion": "SYNTHETIC-DOTNET-NOT-UNITY",
+    "environmentSha256": "858760ab2bb1023d804edd2cea5750a5ceda4a19fe5b5ec7d99bcddc8d8e977d",
+    "assets": [
+      {
+        "path": "Assets/Fixture.mesh",
+        "guid": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "contentSha256": "0b8083d9477aae4c58293a1c3033f4558755d4bb9645d9a15e0051f4a42e3da6",
+        "metaSha256": "faf9e589d138b022d8d0e865fa5da7ae27b5bf799bbda36a6293460c05d62011",
+        "importerType": "SyntheticImporter_NotUnityEvidence",
+        "dependencyHash": "cccccccccccccccccccccccccccccccc"
+      }
+    ]
+  },
+  "invariants": {
+    "maxDisplacement": 5,
+    "minScale": 0.1,
+    "maxScale": 10,
+    "tolerance": 1E-05
+  },
+  "commands": [
+    {
+      "targetId": "synthetic-marker-id",
+      "kind": "position",
+      "beforeObjectHash": "9b5623b8332029cfe03cf45b83fe00594fa2cdb9a1a03afe72a97bf3b2c7f9f6",
+      "name": "",
+      "active": false,
+      "vector": {
+        "x": 2,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "targetId": "synthetic-marker-id",
+      "kind": "scale",
+      "beforeObjectHash": "3c3e4ec8bec5e2c3ffdc6173b0dcdcf0dff3df2a3dd97c5bb8bbf0721e88bd58",
+      "name": "",
+      "active": false,
+      "vector": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "targetId": "synthetic-marker-id",
+      "kind": "name",
+      "beforeObjectHash": "e963ee70c25f6e64b029f27f93b43e55c174eaa761b755bc187bad75d91e378b",
+      "name": "VerifiedMarker",
+      "active": false,
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    },
+    {
+      "targetId": "synthetic-marker-id",
+      "kind": "active",
+      "beforeObjectHash": "a103a829662b64ba1c69aa53b6a8466ef820cafb38e9a9096f60ea339911c6ab",
+      "name": "",
+      "active": false,
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    }
+  ]
+}

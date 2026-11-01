@@ -1,0 +1,14 @@
+{
+  "unityVersion": "SYNTHETIC-DOTNET-NOT-UNITY",
+  "environmentSha256": "858760ab2bb1023d804edd2cea5750a5ceda4a19fe5b5ec7d99bcddc8d8e977d",
+  "assets": [
+    {
+      "path": "Assets/Fixture.mesh",
+      "guid": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "contentSha256": "0b8083d9477aae4c58293a1c3033f4558755d4bb9645d9a15e0051f4a42e3da6",
+      "metaSha256": "faf9e589d138b022d8d0e865fa5da7ae27b5bf799bbda36a6293460c05d62011",
+      "importerType": "SyntheticImporter_NotUnityEvidence",
+      "dependencyHash": "cccccccccccccccccccccccccccccccc"
+    }
+  ]
+}

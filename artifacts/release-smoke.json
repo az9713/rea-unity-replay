@@ -1,0 +1,15 @@
+{
+  "extracted_release_executable_ran": true,
+  "demo_passed": true,
+  "actual_asset_file_verified_replay_passed": true,
+  "host": "Self-contained Windows .NET CLI, NOT Unity Editor",
+  "result": {
+    "host": "Real standalone .NET core; NOT Unity Editor",
+    "commands": 4,
+    "baselineHash": "8c143b81c9a8997bcab8b8f15d053271f3791a267f408e5abb3520bb1f3bd5a1",
+    "resultHash": "88cd00cf4a3aaebb6d1107cb9c8de87d5a814471d5dbc2a3aee0074dd1866d8f",
+    "committed": true,
+    "scope": "Original synthetic IDs/assets; no native Unity importer/Undo/runtime proof"
+  },
+  "executable_sha256": "283ae582522bd672afa16dddec2fc0e27e3cc3f8d39442a359bd23b3e2fea875"
+}

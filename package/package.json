@@ -1,0 +1,1 @@
+{"name":"com.rea.unity-replay","version":"0.1.0","displayName":"Guarded Replay Ledger","description":"Bounded Editor commands, identity guards, preview checkpoints and explicit invariant validation.","unity":"6000.0","author":{"name":"REA portfolio contributors"},"keywords":["editor","replay","provenance"],"license":"MIT"}

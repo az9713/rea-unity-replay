@@ -1,0 +1,29 @@
+{
+  "repository": "https://github.com/Unity-Technologies/UnityCsReference",
+  "tag": "6000.6.7f1",
+  "commit": "d0e5e3e00a4f454bc2853234708c3d7c67ebca9a",
+  "license_url": "https://unity.com/legal/licenses/unity-reference-only-license",
+  "distribution": "No upstream implementation is redistributed; source reviewed locally for reference only.",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/d0e5e3e00a4f454bc2853234708c3d7c67ebca9a/README.md",
+      "sha256": "77d35f36b28b99d431a31fbd35ce8c4c876a48b7d64bdd2da22455ecd683e54e"
+    },
+    {
+      "path": "Editor/Mono/GlobalObjectId.bindings.cs",
+      "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/d0e5e3e00a4f454bc2853234708c3d7c67ebca9a/Editor/Mono/GlobalObjectId.bindings.cs",
+      "sha256": "11c403659ee583b5f8965c4f47a81e1cbecf409cf392eb798396f48d2cdd9cb9"
+    },
+    {
+      "path": "Editor/Mono/Undo/Undo.bindings.cs",
+      "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/d0e5e3e00a4f454bc2853234708c3d7c67ebca9a/Editor/Mono/Undo/Undo.bindings.cs",
+      "sha256": "a3088e5ec56e5035b3b5e2732e8fba84d7ca674f0597d2634bc201fac836c24d"
+    },
+    {
+      "path": "Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs",
+      "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/d0e5e3e00a4f454bc2853234708c3d7c67ebca9a/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs",
+      "sha256": "5bd51868444fecb9e111028028cc36c21aa409ee9ca95a57fc38cd75676091ef"
+    }
+  ]
+}

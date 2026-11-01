@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><TargetFramework>net9.0</TargetFramework><DefineConstants>UNITY_EDITOR</DefineConstants></PropertyGroup><ItemGroup><Compile Include="../package/Editor/Core/ReplayCore.cs" Link="ReplayCore.cs"/><Compile Include="../package/Editor/ReplayWindow.cs" Link="ReplayWindow.cs"/><Compile Include="UnityApiStubs.cs"/></ItemGroup></Project>

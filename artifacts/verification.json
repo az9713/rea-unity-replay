@@ -1,0 +1,137 @@
+{
+  "compiler_sdk": "9.0.320",
+  "policy_tests": {
+    "host": "Real .NET C# policy/core execution, not Unity Editor",
+    "passed": 20,
+    "total": 20,
+    "results": [
+      {
+        "name": "bounded replay produces declared result without mutating baseline",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "wrong baseline and scene root are refused",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "duplicate object IDs are ambiguous",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "hierarchy escape and cycle are refused",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "unknown components and nondeterministic callbacks are refused",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "stale command precondition is refused",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "unknown reflection command is refused",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "nonfinite vectors are refused",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "nonpositive scale and nonunit rotation are refused",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "intermediate invariant violation cannot hide behind final state",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "command and object resource caps are enforced",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "asset content importer and environment conflicts are refused",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "asset paths cannot escape fixture project",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "JSON roundtrip and decimal culture preserve identity",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "IEEE float hashing normalizes signed zero",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "malformed Unicode cannot collapse into replacement-byte identity",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "backend failure restores checkpoint without commit",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "post-apply divergence is detected and rolled back",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "failed rollback is explicit rather than reported as safe",
+        "passed": true,
+        "error": ""
+      },
+      {
+        "name": "actual fixture file hash rejects tampering",
+        "passed": true,
+        "error": ""
+      }
+    ]
+  },
+  "api_compile": {
+    "passed": true,
+    "warnings": 0,
+    "errors": 0,
+    "reference": "Handwritten compile-only API shims, NOT genuine Unity assemblies",
+    "native_unity_execution": false
+  },
+  "standalone_demo": {
+    "host": "Real standalone .NET core; NOT Unity Editor",
+    "commands": 4,
+    "baselineHash": "8c143b81c9a8997bcab8b8f15d053271f3791a267f408e5abb3520bb1f3bd5a1",
+    "resultHash": "88cd00cf4a3aaebb6d1107cb9c8de87d5a814471d5dbc2a3aee0074dd1866d8f",
+    "committed": true,
+    "scope": "Original synthetic IDs/assets; no native Unity importer/Undo/runtime proof"
+  },
+  "tested_files": {
+    "package/Editor/Core/ReplayCore.cs": "12025dac0ead557a598d9a6c0fa8b360bc64bf9307e161fbf5b47247e6ff25aa",
+    "package/Editor/ReplayWindow.cs": "ce337c4b87997d8e95e13bb60a9a12cf00ceacf1ccfa152646e3d35f39749499",
+    "tests/UnityApiStubs.cs": "c3e761bce663546742db24fe0281870e965e0d44376f8bfe0e7777774d0ef1ee",
+    "tests/CoreTests.cs": "c04bc32e1802f0f42f3e034c8dd9850afb174ca4f82d658add0555cecec9825c",
+    "cli/FixtureSupport.cs": "5c660e991767fbb052d82e38f8f884e15c3461332e462a669fe05b4b77a4a32a",
+    "cli/Program.cs": "27cda72a14cefad489a5e1378454b3a845c76d86f74a2534ce50946b80ee6d31"
+  },
+  "limits": [
+    "Unity Editor compilation, window behavior, GlobalObjectId roundtrip, importer identity and native Undo remain unverified.",
+    "Core/memory-backend rollback tests do not prove native Undo rollback."
+  ]
+}
