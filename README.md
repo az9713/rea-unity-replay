@@ -12,6 +12,18 @@ Suppose an editor script moves an object called Target. Later, another scene con
 
 [Live guide](https://az9713.github.io/rea-unity-replay/) · [Download packages](https://github.com/az9713/rea-unity-replay/releases/tag/v0.1.0)
 
+<!-- rea-release-expectations:start -->
+## What to expect from this release
+
+**Status: experimental.** Read the tested scope and remaining work below before choosing this release for your workflow.
+
+- **What you get:** An experimental Unity Editor package plus a separate Windows command-line checker. The Editor package is intended to add controls inside Unity; the tested standalone checker is a distinct executable.
+- **Verified so far:** The C# checking and rollback logic, a compile check against a simulated Unity interface, and the extracted command-line example were executed.
+- **Still needs testing or implementation:** Importing the package into a real Unity Editor, using its panel and verifying native Undo remain unverified.
+- **Relationship to the original app:** The release covers selected name, transform and on/off edits with recorded starting-state checks. It does not promise repeatable physics, animation, arbitrary scripts or general scene automation.
+
+<!-- rea-release-expectations:end -->
+
 ## The before/after change
 
 | Before | With the bounded replay ledger |
